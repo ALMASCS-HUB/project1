@@ -113,7 +113,7 @@ class MarketMaker(fix.Application):
 
 def main():
     try:
-        settings = fix.SessionSettings("Server.cfg")  # Ensure correct path
+        settings = fix.SessionSettings("server.cfg")  # Ensure correct path
         application = MarketMaker()
         store_factory = fix.FileStoreFactory(settings)
         log_factory = fix.ScreenLogFactory(settings)
