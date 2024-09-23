@@ -4,7 +4,7 @@ import configparser
 config = configparser.ConfigParser()
 
 # Read the client.cfg file
-config.read('client.cfg')
+config.read('Client.cfg')
 
 # Access values from the DEFAULT section
 connection_type = config['DEFAULT']['ConnectionType']
